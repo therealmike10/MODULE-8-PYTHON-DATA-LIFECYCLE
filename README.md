@@ -1,5 +1,4 @@
 # MODULE-8-PYTHON-DATA-LIFECYCLE
-# MODULE-8-PYTHON-DATA-LIFECYCLE
 
 Repositorio correspondiente al proyecto final del **Módulo 8: Python for Data Analysis** del programa **Data & Analytics V3 de ThePower**, desarrollado por **Miguel Encinas**.
 
@@ -58,13 +57,11 @@ Tras la limpieza y unión de los datos, se generaron diferentes visualizaciones 
 Las visualizaciones se organizaron en tres grandes bloques:
 
 ### 1. Distribución general de clientes
-
 En este bloque se estudia cómo se distribuyen los clientes en función de diferentes variables categóricas, como edad, grupo profesional, nivel educativo, estado civil, préstamos, campañas previas, año de contacto, duración de la última llamada o variable objetivo.
 
 Estas visualizaciones permiten entender la composición general del dataset antes de analizar la relación de cada variable con la contratación del producto.
 
 ### 2. Distribución de la variable objetivo
-
 En este segundo bloque se analiza cómo varía la proporción de clientes que aceptaron o no aceptaron la oferta en función de diferentes características.
 
 Entre otras variables, se estudia la relación entre la variable objetivo y:
@@ -87,7 +84,6 @@ Entre otras variables, se estudia la relación entre la variable objetivo y:
 - Frecuencia de visitas web.
 
 ### 3. Evolución temporal
-
 Por último, se generaron visualizaciones orientadas a estudiar la evolución de ciertas variables a lo largo del tiempo, especialmente en relación con el año de contacto y el comportamiento de la variable objetivo.
 
 ## Predicción de la variable objetivo
@@ -109,7 +105,6 @@ Para ello, se aplicó un flujo básico de Machine Learning con **scikit-learn**,
 La regresión logística mostró una buena accuracy general, pero una precision más limitada, especialmente por la dificultad para predecir correctamente los casos positivos. Posteriormente, el árbol de decisión mejoró la precision y mantuvo una accuracy elevada, lo que sugiere que el dataset puede tener cierto potencial predictivo, aunque sería necesario profundizar con técnicas adicionales de validación, ajuste de hiperparámetros y tratamiento del desbalanceo.
 
 ## ℹ️ Información de interés
-
 **Notebooks (py)**: Carpeta que contiene los scripts de Python utilizados durante el proyecto.
 
 - **01_EDA_bank_additional.py**: limpieza, transformación y análisis exploratorio inicial de la tabla principal.
@@ -135,7 +130,6 @@ La regresión logística mostró una buena accuracy general, pero una precision 
 **Visualizations**: Carpeta que contiene las visualizaciones generadas durante el análisis, organizadas en diferentes subcarpetas.
 
 ## 🛠️ Herramientas y lenguajes utilizados
-
 - Lenguaje: **Python**
 - Entorno: **Visual Studio Code**
 - Librerías principales:
@@ -143,28 +137,7 @@ La regresión logística mostró una buena accuracy general, pero una precision 
   - **NumPy**
   - **matplotlib**
   - **seaborn**
-  - **openpyxl**
   - **scikit-learn**
-
-## ▶️ Ejecución del proyecto
-
-Para ejecutar este proyecto en otro equipo, es recomendable clonar el repositorio e instalar las dependencias principales:
-
-```bash
-git clone https://github.com/therealmike10/MODULE-8-PYTHON-DATA-LIFECYCLE.git
-cd MODULE-8-PYTHON-DATA-LIFECYCLE
-pip install pandas numpy matplotlib seaborn openpyxl scikit-learn
-```
-
-Después, se pueden ejecutar los scripts de Python siguiendo el orden lógico del proyecto:
-
-```bash
-python "Notebooks (py)/01_EDA_bank_additional.py"
-python "Notebooks (py)/02_EDA_customer_details.py"
-python "Notebooks (py)/03_merge_dataframes.py"
-python "Notebooks (py)/04_data_visualizations.py"
-python "Notebooks (py)/05_objective_variable_prediction.py"
-```
 
 ⚠️ **Nota importante**: los scripts contienen rutas locales absolutas, por lo que para ejecutar el proyecto en otro ordenador sería necesario adaptar dichas rutas a la estructura local del nuevo equipo o convertirlas en rutas relativas al repositorio.
 
