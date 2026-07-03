@@ -11,7 +11,7 @@ El proyecto parte de dos fuentes principales de datos, ambas incluidas en la car
 - **bank-additional.csv**: tabla principal del proyecto. Contiene información de clientes contactados durante una campaña de marketing bancario, así como su información demográfica, información de contacto, datos de campañas previas, indicadores macroeconómicos y la variable objetivo.
 - **customer-details.xlsx**: archivo auxiliar en formato Excel, dividido en varias hojas correspondientes a diferentes años en los que el cliente se registró en el banco. Este archivo contiene información adicional de los clientes, como ingresos, número de hijos o adolescentes en casa, fecha de alta y frecuencia de visitas a la página web.
 
-A partir de estos archivos se generaron diferentes archivos tratados, disponibles en la carpeta Project Data/Curated data'.
+A partir de dichos archivos se generaron diferentes archivos tratados, disponibles en la carpeta Project Data/Curated data'.
 
 ## ✨ Limpieza y transformación de los datos
 La limpieza de datos se realizó principalmente en los scripts '01_EDA_bank_additional.py' y '02_EDA_customer_details.py', incluidos en la carpeta 'Notebooks (py)'.
