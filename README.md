@@ -131,9 +131,9 @@ La regresión logística mostró una buena accuracy general, pero una precision 
   - **seaborn**
   - **scikit-learn**
 
-⚠️ Los scripts contienen **rutas locales absolutas**, por lo que para ejecutar el proyecto en otro ordenador sería necesario **adaptar dichas rutas** a la estructura local del nuevo equipo.
+⚠️ Los scripts contienen **rutas locales absolutas**, por lo que para ejecutar el proyecto en otro ordenador sería necesario **adaptar dichas rutas** a la estructura local del nuevo equipo.\
 \
-⚠️ Para la elaboración del código, **no se usaron herramientas de IA generativa**, el código fue generado de manera íntegra por el usuario.
+⚠️ Para la elaboración del código, **no se usaron herramientas de IA generativa**, el código fue generado de manera íntegra por el usuario.\
 \
 ⚠️ En ocasiones puntuales, **se utilizó inteligencia artificial como asistente** (sin generación directa de código) para enocontrar el fallo en un código que el usuario no fue capaz de encontrar por sí mismo.\
 \
