@@ -47,7 +47,7 @@ La unión se llevó a cabo con el método **merge()**, a través la columna **Cl
 
 Estos archivos constituyen la versión final del conjunto de datos tratado, sobre la que se realizaron las visualizaciones y la prueba de los modelados predictivos.
 
-## Visualización de los datos
+## 🔎 Visualización de los datos
 Tras la limpieza y unión de los datos, se generaron diferentes visualizaciones mediante el script '04_data_visualizations.py'.
 
 Las visualizaciones se organizaron en tres grandes bloques:
@@ -133,7 +133,7 @@ La regresión logística mostró una buena accuracy general, pero una precision 
 
 ⚠️ Los scripts contienen **rutas locales absolutas**, por lo que para ejecutar el proyecto en otro ordenador sería necesario **adaptar dichas rutas** a la estructura local del nuevo equipo.
 \
-⚠️ Para la elaboración del código, **no se usaron herramientas de IA generativa**, el código fue generado de manera íntegra por el usuario.\
+⚠️ Para la elaboración del código, **no se usaron herramientas de IA generativa**, el código fue generado de manera íntegra por el usuario.
 \
 ⚠️ En ocasiones puntuales, **se utilizó inteligencia artificial como asistente** (sin generación directa de código) para enocontrar el fallo en un código que el usuario no fue capaz de encontrar por sí mismo.\
 \
